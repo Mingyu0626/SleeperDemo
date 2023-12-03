@@ -2,22 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myPageClick5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mypage_4"
-    android:id="@+id/myPageClick5"
     android:orientation="vertical"
     tools:context=".MyPageActivity5">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12월 4일 (월) 11:12"
-        android:fontFamily="@font/pretendardmedium"
-        android:textColor="@color/gray100"
-        android:textSize="16sp"
-        android:layout_marginTop="275dp"
         android:layout_marginLeft="30dp"
-        />
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:text="12월 4일 (월) 11:12"
+        android:textColor="@color/gray100"
+        android:textSize="16sp" />
 
 </LinearLayout>
