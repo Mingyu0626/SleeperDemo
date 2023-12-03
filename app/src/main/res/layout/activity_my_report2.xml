@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyReportActivity2">
+    android:background="@drawable/myreport_3"
+    android:id="@+id/myReportClick1"
+    tools:context=".MyReportActivity1">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

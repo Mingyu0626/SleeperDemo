@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mypage_2"
-    android:id="@+id/myPageClick3"
     android:orientation="vertical"
-    tools:context=".MyPageActivity3">
+    android:background="@drawable/result_2"
+    android:id="@+id/resultClick"
+    tools:context=".MainActivity2">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="12월 4일 (월) 11:12"
         android:fontFamily="@font/pretendardmedium"
-        android:textColor="@color/gray100"
-        android:textSize="16sp"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="26dp"
+        android:textColor="@color/gray400"
+        android:textSize="26sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="50dp"
         />
 
 </LinearLayout>

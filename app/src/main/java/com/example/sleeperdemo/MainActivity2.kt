@@ -3,18 +3,20 @@ package com.example.sleeperdemo
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sleeperdemo.databinding.ActivityMain2Binding
 import com.example.sleeperdemo.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    lateinit var binding: ActivityMainBinding
+class MainActivity2 : AppCompatActivity() {
+    lateinit var binding: ActivityMain2Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.mainClick1.setOnClickListener {
-            val intent = Intent(this@MainActivity, MissionActivity1::class.java)
+        binding.mainClick2.setOnClickListener {
+            val intent = Intent(this@MainActivity2, RecordActivity
+            ::class.java)
             startActivity(intent)
         }
     }

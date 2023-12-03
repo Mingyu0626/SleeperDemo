@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mypage_2"
-    android:id="@+id/myPageClick3"
+    android:background="@drawable/mypage_4"
+    android:id="@+id/myPageClick5"
     android:orientation="vertical"
-    tools:context=".MyPageActivity3">
+    tools:context=".MyPageActivity5">
 
     <TextView
         android:layout_width="wrap_content"

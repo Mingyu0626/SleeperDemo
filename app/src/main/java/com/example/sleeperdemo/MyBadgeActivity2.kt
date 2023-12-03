@@ -1,11 +1,9 @@
 package com.example.sleeperdemo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sleeperdemo.databinding.ActivityMyPage3Binding
 
 class MyBadgeActivity2 : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_my_badge2)
-    }
 }

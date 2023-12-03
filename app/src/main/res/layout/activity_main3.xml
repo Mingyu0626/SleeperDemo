@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mypage_1"
-    android:id="@+id/myPageClick1"
     android:orientation="vertical"
-    tools:context=".MyPageActivity1">
-
+    android:background="@drawable/main_1"
+    android:id="@+id/mainClick3"
+    tools:context=".MainActivity2">
 </LinearLayout>

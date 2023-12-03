@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mission_2"
+    android:id="@+id/missionClick2"
     tools:context=".MissionActivity2">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
