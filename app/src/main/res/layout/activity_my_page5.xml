@@ -12,11 +12,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="316dp"
         android:fontFamily="@font/pretendardmedium"
         android:text="12월 4일 (월) 11:12"
         android:textColor="@color/gray100"
-        android:textSize="16sp" />
+        android:textSize="17sp" />
 
 </LinearLayout>
